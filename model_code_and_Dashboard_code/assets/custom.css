@@ -1,7 +1,7 @@
 .pkcalc-banner > a > img {
-  height: 100px;
+  height: 70px;
   float: left;
-  padding: 5px;
+  padding: 10px;
   padding-bottom: 0px;
   transition-duration: 500ms;
 }
@@ -14,20 +14,20 @@
   filter: brightness(2);
 }
 .pkcalc-banner > img {
-  height: 40px;
+  height: 36px;
   float: right;
-  margin: 12px;
+  margin: 10px;
   transition-duration: 500ms;
-  padding-bottom: 15px;
+
 
 }
-.pkcalc-banner h1 {
-  font-size: 40pt;
+.pkcalc-banner h2 {
+  font-size: 20pt;
   font-family: "Times";
   font-weight: 200 !important;
   letter-spacing: 1px;
   position:  absolute;
-  top: 15px;
+  top: 5px;
   margin-left: 70px;
     float: center;
 }

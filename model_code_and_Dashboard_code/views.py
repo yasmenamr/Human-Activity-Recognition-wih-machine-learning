@@ -18,7 +18,7 @@ table_header_style = {
     "backgroundColor": "rgb(2,21,70)",
     "color": "white",
     "textAlign": "center",
-    'font-size': '120%',
+
 }
 
 global classifer
@@ -34,7 +34,7 @@ app.layout = html.Div(
     children=[
         html.Div(className="pkcalc-banner",
                  children=[
-                    html.H1("Human Activity Recognition Dashboard", style={"text-align": "left", "color": "white"}),
+                    html.H2("Human Activity Recognition Dashboard", style={"text-align": "left", "color": "white"}),
                     html.A(id="gh-link",
                            children=["View on GitHub"],
                            href="https://github.com/yasmenamr/Human_Activity_Recognition_Dashboard",
@@ -50,7 +50,7 @@ app.layout = html.Div(
         html.Hr(style={'margin-top': '0rem','padding':"0px"}),
         html.Div(style={'padding':"0pxl"},
                  className="container",
-                 children=[html.H4('If you want to recognize your activity please insert your recordings:',style={"text-align": "left",'padding':0}),
+                 children=[html.H5('If you want to recognize your activity please insert your recordings:',style={"text-align": "left",'padding':0}),
                            html.Div(className="twelve columns pkcalc-data-table",
                                     children=[dash_table.DataTable(
                                     id="data-table",
@@ -86,7 +86,7 @@ app.layout = html.Div(
         )
 
 
-    ],style={"text-align": "center", "width": "100%"}
+    ],style={"text-align": "center"}
 )
 
 
