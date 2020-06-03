@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad4b0e75-4438-4ca7-91ba-e2d49afa08ce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/model_code_and_Dashboard_code/assets/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/model_code_and_Dashboard_code/assets/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_code_and_Dashboard_code/assets/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/model_code_and_Dashboard_code/assets/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model_code_and_Dashboard_code/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/model_code_and_Dashboard_code/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model_code_and_Dashboard_code/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="59" column="67" selection-start-line="59" selection-start-column="67" selection-end-line="59" selection-end-column="67" />
+            <state relative-caret-position="357">
+              <caret line="52" column="133" selection-start-line="52" selection-start-column="133" selection-end-line="52" selection-end-column="133" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -146,6 +144,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -199,8 +198,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model_code_and_Dashboard_code/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="59" column="67" selection-start-line="59" selection-start-column="67" selection-end-line="59" selection-end-column="67" />
+        <state relative-caret-position="357">
+          <caret line="52" column="133" selection-start-line="52" selection-start-column="133" selection-end-line="52" selection-end-column="133" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
