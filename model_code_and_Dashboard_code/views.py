@@ -34,7 +34,7 @@ app.layout = html.Div(
     children=[
         html.Div(className="pkcalc-banner",
                  children=[
-                    html.P("Human Activity Recognition Dashboard", style={"text-align": "left", "color": "white",'margin-left': '4.5rem',}),
+                    html.H2("Human Activity Recognition Dashboard", style={"text-align": "left", "color": "white",'margin-left': '4.5rem',}),
                     html.A(id="gh-link",
                            children=["View on GitHub"],
                            href="https://github.com/yasmenamr/Human_Activity_Recognition_Dashboard",
@@ -43,7 +43,7 @@ app.layout = html.Div(
                     html.Img(src=app.get_asset_url("GitHub-Mark-Light-64px.png")),
                 ]
         ),
-        html.H4('The Human Activity Recognition machine learning model was built from the recordings from smartphones with embedded inertial sensors.'
+        html.P('The Human Activity Recognition machine learning model was built from the recordings from smartphones with embedded inertial sensors.'
                 ,style={'margin-top': '10rem','margin-bottom': '0rem',
                         "text-align": "left",'padding':0,'margin-left': '3.5rem',"font-size": "18pt"}
         ),
