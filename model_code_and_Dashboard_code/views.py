@@ -45,7 +45,7 @@ app.layout = html.Div(
         ),
         html.H4('The Human Activity Recognition machine learning model was built from the recordings from smartphones with embedded inertial sensors.'
                 ,style={'margin-top': '10rem','margin-bottom': '0rem',
-                        "text-align": "left",'padding':0,'margin-left': '6rem',}
+                        "text-align": "left",'padding':0,'margin-left': '4rem',"font-size": "18pt"}
         ),
         html.Hr(style={'margin-top': '0rem','padding':"0px"}),
         html.Div(style={'padding':"0pxl"},
