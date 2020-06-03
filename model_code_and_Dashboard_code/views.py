@@ -43,14 +43,14 @@ app.layout = html.Div(
                     html.Img(src=app.get_asset_url("GitHub-Mark-Light-64px.png")),
                 ]
         ),
-        html.H3('The Human Activity Recognition machine learning model was built from the recordings from smartphones with embedded inertial sensors.'
+        html.H4('The Human Activity Recognition machine learning model was built from the recordings from smartphones with embedded inertial sensors.'
                 ,style={'margin-top': '10rem','margin-bottom': '0rem',
                         "text-align": "left",'padding':0,'margin-left': '6rem',}
         ),
         html.Hr(style={'margin-top': '0rem','padding':"0px"}),
         html.Div(style={'padding':"0pxl"},
                  className="container",
-                 children=[html.H5('If you want to recognize your activity please insert your recordings:',style={"text-align": "left",'padding':0}),
+                 children=[html.H6('If you want to recognize your activity please insert your recordings:',style={"text-align": "left",'padding':0}),
                            html.Div(className="twelve columns pkcalc-data-table",
                                     children=[dash_table.DataTable(
                                     id="data-table",
