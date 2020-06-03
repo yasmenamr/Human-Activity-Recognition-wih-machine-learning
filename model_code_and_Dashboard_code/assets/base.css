@@ -41,6 +41,9 @@
   padding: 0 20px;
   box-sizing: border-box;
 }
+
+
+
 .column,
 .columns {
   width: 100%;
@@ -59,7 +62,7 @@
 /* For devices larger than 550px */
 @media (min-width: 550px) {
   .container {
-    width: 80%;
+    width: 95%;
   }
   .column,
   .columns {
@@ -233,7 +236,7 @@ h3 {
 h4 {
   font-size: 2.6rem;
   line-height: 1.35;
-  letter-spacing: -0.08rem;
+  letter-spacing: -0.06rem;
   margin-bottom: 1.2rem;
   margin-top: 1.2rem;
 }
@@ -289,7 +292,7 @@ input[type="button"] {
   padding: 0 30px;
   color: #555;
   text-align: center;
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 38px;
   letter-spacing: 0.1rem;
@@ -442,16 +445,16 @@ table {
 th,
 td {
   padding: 12px 15px;
-  text-align: left;
+  text-align: center;
   border-bottom: 1px solid #e1e1e1;
 }
 th:first-child,
 td:first-child {
-  padding-left: 0;
+  padding-left: 0px;
 }
 th:last-child,
 td:last-child {
-  padding-right: 0;
+  padding-right: 0px;
 }
 
 /* Spacing
@@ -499,10 +502,12 @@ ol {
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 hr {
-  margin-top: 3rem;
-  margin-bottom: 3.5rem;
-  border-width: 0;
-  border-top: 1px solid #e1e1e1;
+  margin-top: 0rem;
+  margin-bottom:0rem;
+
+  border-width: 0px;
+  border-top: 1px solid rgb(2,21,70);
+  padding: 0px 0px;
 }
 
 /* Clearing

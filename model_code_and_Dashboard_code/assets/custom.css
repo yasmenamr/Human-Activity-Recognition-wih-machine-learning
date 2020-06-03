@@ -18,25 +18,39 @@
   float: right;
   margin: 10px;
   transition-duration: 500ms;
+
+
 }
 .pkcalc-banner h2 {
+  font-size: 26pt;
+  font-family: "Times";
+  font-weight: 200 !important;
+  letter-spacing: 1px;
+  position:  absolute;
+  top: 5px;
+  margin-left: 70px;
+    float: center;
+}
+.head h2 {
   font-size: 20pt;
   font-family: "Times";
   font-weight: 200 !important;
   letter-spacing: 1px;
   position: absolute;
-  top: 5px;
+  top: 0px;
   margin-left: 165px;
+   float: left;
 }
 
 #gh-link {
   text-decoration: none;
-  font-size: 10pt;
+  font-size: 12pt;
   font-family: sans-serif;
   color: white;
   border: solid 1px white;
   border-radius: 2px;
   padding: 5px 15px;
+
   font-weight: 100;
   position: relative;
   top: 15px;
@@ -50,10 +64,23 @@
   border-color: #dfe8f3 !important;
 }
 .container {
-  max-width: 1200px;
+  max-width: 100%;
   position: relative;
-  top: 100px;
-  margin-bottom: 30px;
+  top: 0px;
+  margin-bottom: 0px;
+  margin-bottom: 5px;
+  bottom: 0px;
+  padding: 0px 0px;
+
+}
+
+.head {
+  max-width: 100%;
+  position: relative;
+  top: 125px;
+  margin-bottom: 1px;
+ margin-left: 60px;
+
 }
 
 .pkcalc-banner {
@@ -80,6 +107,8 @@
 }
 
 .pkcalc-settings > div {
+
+
   margin: 0px 40px;
 }
 
@@ -104,12 +133,14 @@
 }
 
 .pkcalc-data-table {
-  height: 271px;
+  width: 200%;
+  height: 100px;
   overflow: auto;
+
 }
 
 #data-table td {
-  padding: 5px 15px;
+  padding: 0px 0px;
 }
 
 .pkcalc-results-table {

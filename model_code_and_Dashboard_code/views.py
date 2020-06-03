@@ -34,7 +34,7 @@ app.layout = html.Div(
     children=[
         html.Div(className="pkcalc-banner",
                  children=[
-                    html.H2("Human Activity Recognition Dashboard", style={"text-align": "left", "color": "white"}),
+                    html.H2("Human Activity Recognition Dashboard", style={"text-align": "left", "color": "white",'margin-left': '5rem',}),
                     html.A(id="gh-link",
                            children=["View on GitHub"],
                            href="https://github.com/yasmenamr/Human_Activity_Recognition_Dashboard",
@@ -45,12 +45,12 @@ app.layout = html.Div(
         ),
         html.H4('The Human Activity Recognition machine learning model was built from the recordings from smartphones with embedded inertial sensors.'
                 ,style={'margin-top': '10rem','margin-bottom': '0rem',
-                        "text-align": "left",'padding':0,'margin-left': '4rem',}
+                        "text-align": "left",'padding':0,'margin-left': '4rem',"font-size": "18pt"}
         ),
         html.Hr(style={'margin-top': '0rem','padding':"0px"}),
         html.Div(style={'padding':"0pxl"},
                  className="container",
-                 children=[html.H6('If you want to recognize your activity please insert your recordings:',style={"text-align": "left",'padding':0}),
+                 children=[html.H6('If you want to recognize your activity please insert your recordings:',style={"text-align": "left",'padding':0,"font-size": "14pt"}),
                            html.Div(className="twelve columns pkcalc-data-table",
                                     children=[dash_table.DataTable(
                                     id="data-table",
