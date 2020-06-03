@@ -98,4 +98,9 @@ $train app.py
 
 
 
-![project gif](model_code_and_Dashboard_code/assets/my-project-gif.gif)
+![project gif](model_code_and_Dashboard_code/assets/project.gif)
+
+
+
+
+##I use CSS files from here(''') 
