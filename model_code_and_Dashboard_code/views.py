@@ -45,7 +45,7 @@ app.layout = html.Div(
         ),
         html.H4('The Human Activity Recognition machine learning model was built from the recordings from smartphones with embedded inertial sensors.'
                 ,style={'margin-top': '10rem','margin-bottom': '0rem',
-                        "text-align": "left",'padding':0,'margin-left': '4rem',"font-size": "18pt"}
+                        "text-align": "left",'padding':0,'margin-left': '4rem',}
         ),
         html.Hr(style={'margin-top': '0rem','padding':"0px"}),
         html.Div(style={'padding':"0pxl"},
@@ -57,7 +57,7 @@ app.layout = html.Div(
                                     columns=[{"name": i, "id": i} for i in train_df.columns],
                                     data=train_df.to_dict('records')[:1],
                                     editable=True,
-                                    style_header=table_header_style,style_cell={ 'font-size': '120%',},
+                                    style_header=table_header_style,
                                     active_cell={"row": 1},
                                     selected_cells=[{"row": 0, "column": 0}],
                                              )
