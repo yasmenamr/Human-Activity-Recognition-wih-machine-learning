@@ -3,8 +3,10 @@
 
 ![dashboard](https://images.unsplash.com/photo-1520895653685-c739b6db8fce?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=4800')
 
-![Dataset Link]
+
 A dashboard that recognize the human activity based on readings from sensor data.
+
+Dashboard Link on Heroku: https://human-activity-recognition-ml.herokuapp.com
 
 ## 1.Dataset Link:
 
